@@ -24,6 +24,12 @@ USERS = {
         "password": "1234",
         "name": "Yashwanth"
     }
+    ,
+    "madhuri": {
+        "password": "0419",
+        "name": "Madhuri"
+    }
+
 }
 
 
@@ -115,10 +121,10 @@ def welcome_page():
 
     st.title(f"👋 Welcome, {st.session_state.name}!")
 
-    st.subheader("Good to see you again.")
+    st.subheader("Good to see you.")
 
     st.write(
-        "You have successfully logged into the portal."
+        "You have successfully logged into the My portal."
     )
 
     st.divider()
@@ -127,14 +133,14 @@ def welcome_page():
         f"Logged in as: **{st.session_state.username}**"
     )
 
-    st.write("### Welcome to the Dashboard")
+    st.write("### what are you doing")
 
     st.write(
         """
-        This is your home page.
+        I need ask you something ???...
+        Have nice day
 
-        You can add your dashboard functions,
-        reports, forms, or other Streamlit pages here.
+        
         """
     )
 
